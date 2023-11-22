@@ -7,6 +7,7 @@ const SinhVienSchema = new Schema(
         MaSV: {
             type: String,
             required: true,
+            unique: true
         },
         MaTK: {
             type: mongoose.Schema.Types.ObjectId,

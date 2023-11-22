@@ -15,7 +15,7 @@ const GiangVienSchema = new Schema(
         },
         HoGV: {
             type: String,
-            required: true,
+            required: true, 
         },
         TenGV: {
             type: String,
